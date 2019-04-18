@@ -1,5 +1,8 @@
 # Build your say_hello method here
 
 def say_hello(name)
+  if (!name) 
+    puts name
+  else 
   puts "Hello #{name}!"
 end
